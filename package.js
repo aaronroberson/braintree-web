@@ -1,7 +1,7 @@
 // Package metadata file for Meteor.js
 var packageName = 'aaronroberson:braintree-web';
 var where = 'client';
-var version = '2.14.2';
+var version = '2.17.1';
 var summary = 'A suite of tools for integrating Braintree in the browser.';
 var gitLink = 'https://github.com/aaronroberson/braintree-web';
 var documentationFile = 'README.md';
