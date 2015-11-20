@@ -1,6 +1,78 @@
 CHANGELOG
 =========
 
+## 2.17.1
+
+* Bugfixes
+
+## 2.17.0
+
+* Added support for tokenization keys
+* Bugfix: Prevent unexpected mutation of manipulate configuration object passed to `.setup()`
+
+## 2.16.1
+
+* Bugfix: Fix [#98](https://github.com/braintree/braintree-web/issues/98)
+
+## 2.16.0
+
+* DataCollector
+  * bundles BraintreeData functionality into v.zero integrations
+
+## 2.15.4
+
+* Dropin
+  * Bugfix: Properly complete card tokenization flow in IE8
+
+## 2.15.3
+
+* Deduped some internal dependencies for filesize reductions
+
+* Hosted Fields
+  * Fixes a bug where emptying a previously filled form would retain stale nonce
+  * Bugfix: correctly report `card.type` in `onFieldEvent`
+
+## 2.15.2
+
+* PayPal
+  * Fix a regression where `onCancelled` was no longer called
+
+## 2.15.1
+
+* Custom & Coinbase
+  * Bugfixes
+
+## 2.15.0
+
+* Hosted Fields
+  * Allow CVV-only integrations
+  * Contextually validate month based on current date when using split fields
+
+* PayPal
+  * Introduce `headless` merchant configuration option
+  * Introduce programmatic initialization and closing of PayPal auth flow
+  * Increase localization coverage
+
+* Coinbase
+  * Fix regression where button appeared in unsupported browsers
+
+## 2.14.4
+
+* Dropin
+  * Fix spriting over text for coinbase button
+
+## 2.14.3
+
+* Improve formatting of error handler if you don't specify an `onError` callback
+
+* Fix [an issue](https://github.com/braintree/braintree-web/issues/74) when handling credit card fields
+
+* Coinbase
+  * Update popup size to reflect new Coinbase design
+
+* PayPal
+  * BugFixes
+
 ## 2.14.2
 
  * PayPal
